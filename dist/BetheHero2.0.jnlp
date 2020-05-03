@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BetheHero2.0.jnlp">
+  <information>
+    <title>BetheHero2.0</title>
+    <vendor>55419</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BetheHero2.0.jar" size="153871" download="eager" />
+    <jar href="lib\activation-1.1.1.jar" size="69409" download="eager" />
+    <jar href="lib\commons-email-1.3.1.jar" size="49191" download="eager" />
+    <jar href="lib\mail-1.4.5.jar" size="508143" download="eager" />
+    <jar href="lib\postgresql-9.4.1209.jar" size="678049" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BetheHero2.0" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="betheheronew.BetheHero"  name="BetheHero2.0" />
+  <update check="always"/>
+</jnlp>

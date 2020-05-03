@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="656.0" prefWidth="876.0" style="-fx-background-color: #dcdce6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ProfileController">
+   <children>
+      <TableView fx:id="casos" layoutX="6.0" layoutY="155.0" prefHeight="498.0" prefWidth="865.0" style="-: ;">
+         <columns>
+            <TableColumn fx:id="clmNome" prefWidth="123.0" text="Caso" />
+            <TableColumn fx:id="clmDescricao" prefWidth="208.0" text="Descrição" />
+            <TableColumn fx:id="clmValor" prefWidth="98.0" text="Valor" />
+            <TableColumn fx:id="clmOng" prefWidth="111.0" text="Nome Ong" />
+            <TableColumn fx:id="clmEmail" prefWidth="175.0" text="Email" />
+            <TableColumn fx:id="clmWhatsapp" prefWidth="149.0" text="Whatsapp" />
+         </columns>
+      </TableView>
+      <TextField fx:id="txPesquisa" layoutX="14.0" layoutY="54.0" prefHeight="32.0" prefWidth="170.0" promptText="Digite Aqui">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="14.0" layoutY="14.0" text="Pesquise Aqui">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btPesquisa" layoutX="194.0" layoutY="54.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="42.0" style="-fx-background-color: #e02841;" text="OK" textFill="WHITE" />
+      <Button fx:id="btUpdate" layoutX="516.0" layoutY="51.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="186.0" style="-fx-background-color: #e02841;" text="Atualize seus Dados" textFill="WHITE" />
+      <Button fx:id="btDeletar" layoutX="736.0" layoutY="25.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="124.0" style="-fx-background-color: #e02841;" text="Delete Sua Conta" textFill="WHITE" />
+      <Button fx:id="btLogout" layoutX="736.0" layoutY="88.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="124.0" style="-fx-background-color: #e02841;" text="Logout" textFill="WHITE" />
+      <Button fx:id="btOngs" layoutX="288.0" layoutY="51.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="186.0" style="-fx-background-color: #e02841;" text="Ver Ongs Cadastradas" textFill="WHITE" />
+      <Label layoutX="370.0" layoutY="107.0" text="Casos Cadastrados">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

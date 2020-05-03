@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #dcdce6;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controllers.LoginController">
+   <children>
+      <ImageView fitHeight="382.0" fitWidth="378.0" layoutX="214.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@heroes.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="172.0" layoutX="14.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="32.0" layoutY="122.0" text="Faça seu Logon">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="152.0" text="Como Pessoa Fisica">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txEntrar" layoutX="17.0" layoutY="194.0" prefHeight="37.0" prefWidth="172.0" promptText="Digite seu Id de Acesso" />
+      <Button fx:id="btEntrar" layoutX="17.0" layoutY="249.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #e02841;" text="Entrar" textFill="WHITE" />
+      <Button fx:id="btCadastrar" layoutX="108.0" layoutY="249.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #e02841;" text="Cadastrar" textFill="WHITE" />
+   </children>
+</AnchorPane>
